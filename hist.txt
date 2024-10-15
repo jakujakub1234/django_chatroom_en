@@ -1,0 +1,1000 @@
+ 1006  python manage.py migrate
+ 1007  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1008  sudo -u postgres psql
+ 1009  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1010  sudo -u postgres psql
+ 1011  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1012  git add .
+ 1013  git commit -m "Database changes for reactions and responds"
+ 1014  git push
+ 1015  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1016  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1017  git add .
+ 1018  git commit -m "Database changes bug fix"
+ 1019  git push
+ 1020  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1021  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1022  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1023  git status
+ 1024  git add ,
+ 1025  git add .
+ 1026  git status
+ 1027  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1028  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1029  git add .
+ 1030  git commit -m "fix duplicate messages"
+ 1031  git push
+ 1032  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1033  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1034  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1035  sudo -u postgres psql
+ 1036  git add .
+ 1037  git commit -m "saving nick to DB in lobby"
+ 1038  git push
+ 1039  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1040  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1041  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1042  python generate_extra_csv_info.py 
+ 1043  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1044  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1045  git add pages/jsons_for_ai/responds.json 
+ 1046  git status
+ 1047  git commit -m "Remove {{nick}} tag from responds"
+ 1048  git push 
+ 1049  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1050  git add pages/jsons_for_ai/responds.json 
+ 1051  git commit -m "Emojii in responds"
+ 1052  git push
+ 1053  python
+ 1054  cd Desktop/Dominika/
+ 1055  ls
+ 1056  cd skrypty_pomocniczne/
+ 1057  ls
+ 1058  cd generate_extra_csv_info/
+ 1059  ls
+ 1060  python generate_extra_csv_info.py 
+ 1061  cd ..
+ 1062  cd server_DB/
+ 1063  python generate_extra_csv_info.py 
+ 1064  python -W ignore generate_extra_csv_info.py 
+ 1065  gedit heart_reactions.csv 
+ 1066  gedit like_reactions.csv 
+ 1067  python -W ignore generate_extra_csv_info.py 
+ 1068  PGPASSWORD=UaSb4fpPAdnnOM6wWVK0t2e0os61w0Jy psql -h dpg-cptaf52ju9rs73aoja80-a.oregon-postgres.render.com -U mysite mysite_is9v
+ 1069  gedit avatar-default-svgrepo-com.svg 
+ 1070  cd Desktop/Dominika/djangoforbeginners-main/ch3
+ 1071  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1072  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1073  git add .
+ 1074  git commit -m "changes after meeting at university"
+ 1075  git push
+ 1076  cd Desktop/Dominika/
+ 1077  sudo -u postgres psql
+ 1078  history
+ 1079  Rscript a.R 
+ 1080  Rscript statictis_exam.R 
+ 1081  Rscript statictis_exam.R > statistics_exam_result.txt
+ 1082  history
+ 1083  Rscript -e "install.packages'coda')"
+ 1084  Rscript -e "install.packages('coda')"
+ 1085  Rscript statictis_exam.R > statistics_exam_result.txt
+ 1086  Rscript -e "install.packages('dagitty')"
+ 1087  Rscript statictis_exam.R > statistics_exam_result.txt
+ 1088  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1089  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1090  sudo psql -u root
+ 1091  sudo -u postgres psql
+ 1092  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1093  python manage.py makemigration
+ 1094  python manage.py makemigrations
+ 1095  python manage.py migrate
+ 1096  sudo -u postgres psql
+ 1097  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1098  sudo -u postgres psql
+ 1099  python manage.py makemigrations
+ 1100  python manage.py migrate
+ 1101  sudo -u postgres psql
+ 1102  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1103  python manage.py migrate
+ 1104  sudo -u postgres psql
+ 1105  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1106  git add .
+ 1107  git commit -m "database big changes"
+ 1108  git push
+ 1109  ping messenger.com
+ 1110  ~hostnamectl set-hostname maras
+ 1111  hostnamectl set-hostname maras
+ 1112  gedit .bashrc 
+ 1113  traceroute
+ 1114  sudo apt install traceroute
+ 1115  traceroute messenger.com
+ 1116  ping messenger.com
+ 1117  ping https://www.ctrip.com/
+ 1118  ping www.ctrip.com
+ 1119  cd Downloads/
+ 1120  ls
+ 1121  convert
+ 1122  convert load-33_128.gif -coalesce temporary,gif
+ 1123  convert -size 128x128 temporary,gif -resize 64x64 smaller.gif
+ 1124  gifsicle
+ 1125  sudo apt install gifsicle
+ 1126  gifsicle --resize 64x64 --colors 16 temporary,gif > smaller2.gif
+ 1127  gifsicle --optimize --resize 64x64 --colors 16 temporary,gif > smaller3.gif
+ 1128  gifsicle --optimize --resize 64x64 --colors 16 temporary.gif > smaller3.gif
+ 1129  gifsicle --optimize --resize 64x64 --colors 16 temporary,gif > smaller3.gif
+ 1130  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+ 1131  sudo apt-get -y install apt-transport-https ca-certificates gnupg
+ 1132  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+ 1133  sudo apt update
+ 1134  sudo apt-get install -y google-cloud-sdk
+ 1135  cd ..
+ 1136  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1137  gcloud auth login
+ 1138  gcloud config set project reliable-byte-428411-d8
+ 1139  gcloud app deplot
+ 1140  gcloud app deploy
+ 1141  gcloud init
+ 1142  gcloud app deploy
+ 1143  gcloud app browse
+ 1144  gcloud app deploy
+ 1145  ./cloud-sql-proxy reliable-byte-428411-d8:us-central1-b:manipulationpretest
+ 1146  python --version
+ 1147  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1148  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1149  cd ..
+ 1150  cd skrypty_pomocniczne/
+ 1151  python excel_to_json_array.py 
+ 1152  cd ..
+ 1153  cd djangoforbeginners-main/ch3-pages/
+ 1154  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1155  gcloud app deploy
+ 1156  psql "sslmode=disable dbname=postgres user=postgres hostaddr=104.197.57.248"
+ 1157  psql -h 104.197.57.248 -U postgres
+ 1158  gcloud app deploy
+ 1159  psql -h 104.197.57.248 -U postgres
+ 1160  python manage.py makemigrations
+ 1161  python manage.py makemigrations polls
+ 1162  python manage.py migrate
+ 1163  python manage.py collectstatic
+ 1164  psql -h 104.197.57.248 -U postgres
+ 1165  gcloud app logs tail -s default
+ 1166  gsutil ls -Lb gs://bucketname
+ 1167  gcloud app deploy
+ 1168  gcloud app logs tail -s default
+ 1169  gcloud app deploy
+ 1170  gcloud app logs tail -s default
+ 1171  python manage.py createsuperuser
+ 1172  python manage.py runserver
+ 1173  gcloud app deploy
+ 1174  gcloud app logs tail -s default
+ 1175  gcloud app deploy
+ 1176  gcloud app browse
+ 1177  gcloud app logs tail -s default
+ 1178  psql -h 104.197.57.248 -U postgres
+ 1179  gcloud auth application-default login
+ 1180  export GOOGLE_CLOUD_PROJECT=reliable-byte-428411-d8
+ 1181  export USE_CLOUD_SQL_AUTH_PROXY=true
+ 1182  python manage.py runserver 8080
+ 1183  gcloud app deploy
+ 1184  python manage.py collectstatic
+ 1185  gcloud app deploy
+ 1186  gcloud app logs tail -s default
+ 1187  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1188  gcloud app deploy
+ 1189  gcloud app logs tail -s default
+ 1190  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1191  gunicorn -b :$PORT django_project.wsgi --timeout 180
+ 1192  gunicorn -b django_project.wsgi --timeout 180
+ 1193  gunicorn -b 8000 django_project.wsgi --timeout 180
+ 1194  gunicorn -b http://127.0.0.1:8000/ django_project.wsgi --timeout 180
+ 1195  gunicorn -b :8000 django_project.wsgi --timeout 180
+ 1196  psql -h 104.197.57.248 -U postgres
+ 1197  gcloud app deploy
+ 1198  gcloud app logs tail -s default
+ 1199  gcloud app deploy
+ 1200  gcloud app logs tail -s default
+ 1201  gcloud app deploy
+ 1202  gcloud app logs tail -s default
+ 1203  gcloud app deploy
+ 1204  gcloud app logs tail -s default
+ 1205  gcloud app deploy
+ 1206  gcloud app logs tail -s default
+ 1207  gunicorn -b :8000 django_project.wsgi --timeout 180
+ 1208  gunicorn  :8000 django_project.wsgi --timeout 180
+ 1209  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1210  psql -h 104.197.57.248 -U postgres
+ 1211  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1212  gcloud app deploy
+ 1213  psql -h 104.197.57.248 -U postgres
+ 1214  gcloud app deploy
+ 1215  psql -h 104.197.57.248 -U postgres
+ 1216  gcloud app deploy
+ 1217  psql -h 104.197.57.248 -U postgres
+ 1218  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1219  gcloud app deploy
+ 1220  psql -h 104.197.57.248 -U postgres
+ 1221  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1222  gcloud app deploy
+ 1223  psql -h 104.197.57.248 -U postgres
+ 1224  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1225  gcloud app deploy
+ 1226  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1227  gcloud app deploy
+ 1228  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1229  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1230  psql -h 104.197.57.248 -U postgres
+ 1231  python excel_to_json_array.py 
+ 1232  cd ..
+ 1233  cd djangoforbeginners-main/ch3-pages/
+ 1234  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1235  gcloud app deploy
+ 1236  psql -h 104.197.57.248 -U postgres
+ 1237  psql -h 104.197.57.248 -U postgres -P efC3XZ3456hBCVw4Z
+ 1238  psql -h 104.197.57.248 -U postgres -p efC3XZ3456hBCVw4Z
+ 1239  psql -h 104.197.57.248 -U postgres --password efC3XZ3456hBCVw4Z
+ 1240  psql -h 104.197.57.248 -U postgres 
+ 1241  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1242  gcloud app deploy
+ 1243  psql -h 104.197.57.248 -U postgres 
+ 1244  cd ..
+ 1245  ls
+ 1246  cd home
+ 1247  ls
+ 1248  cd Desktop/Dominika/server_DB/
+ 1249  python generate_extra_csv_info.py 
+ 1250  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1251  sudo -u postgres psql
+ 1252  psql -h 104.197.57.248 -U postgres 
+ 1253  \
+ 1254  psql -h 104.197.57.248 -U postgres 
+ 1255  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1256  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1257  python manage.py makemigrations
+ 1258  python manage.py migrate
+ 1259  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1260  cd ..
+ 1261  cd skrypty_pomocniczne/wizualizacja_wynikow/
+ 1262  python generate_plots.py 
+ 1263  cd Desktop/Dominika/skrypty_pomocniczne/wizualizacja_wynikow/
+ 1264  python pl
+ 1265  python generate_plots.py 
+ 1266  lscpu
+ 1267  sudo apt install wine64
+ 1268  mkdir -p ~/myapp/prefix
+ 1269  export WINEPREFIX=$HOME/myapp/prefix 
+ 1270  export WINEARCH=win32 
+ 1271  export WINEPATH=$HOME/myapp 
+ 1272  wineboot --init
+ 1273  winetricks
+ 1274  WINEPREFIX=~/.wine sh winetricks --force vcrun2019
+ 1275  winetricks
+ 1276  WINEPREFIX=~/.wine winetricks --force vcrun2019
+ 1277  sudo winetricks --self-update
+ 1278  wine -v
+ 1279  wine -version
+ 1280  wine --version
+ 1281  winetricks -q --force dotnet45
+ 1282  sudo rm -rf /var/lib/lutris   
+ 1283  sudo rm -rf /var/lutris
+ 1284  sudo rm -rf /lutris
+ 1285  rm -rf ~/.config/lutris
+ 1286  sudo rm -rf /var/lib/lutris   
+ 1287  sudo rm -rf /var/lutris
+ 1288  sudo rm -rf /lutris
+ 1289  rm -rf ~/.config/lutris
+ 1290  sudo rm -rf /var/lib/wine   
+ 1291  sudo rm -rf /var/wine
+ 1292  sudo rm -rf /wine
+ 1293  rm -rf ~/.config/wine
+ 1294  sudo apt install wine
+ 1295  sudo remove wine
+ 1296  sudo apt delete wine
+ 1297  sudo apt remove wine
+ 1298  sudo apt remove lutris
+ 1299  sudo apt remove wine64
+ 1300  sudo apt remove wine32
+ 1301  sudo apt install wine
+ 1302  sudo apt remove winetricks
+ 1303  wine --version
+ 1304  cd "${HOME}/Downloads"
+ 1305  wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+ 1306  chmod +x winetricks
+ 1307  sudo cp winetricks /usr/local/bin
+ 1308  sudo apt install lutris
+ 1309  sudo apt delete lutris
+ 1310  sudo apt remove lutris
+ 1311  sudo apt install lutris
+ 1312  sudo apt remove lutris
+ 1313  sudo apt install lutris
+ 1314  lutris
+ 1315  sudo apt remove lutris
+ 1316  sudo apt remove wine
+ 1317  sudo apt install wine
+ 1318  sudo apt install lutris
+ 1319  lutris
+ 1320  chmod -R 664 ~./local/share/icons/hicolor
+ 1321  sudo apt remove lutris
+ 1322  touch lutris.conf
+ 1323  gedit lutris.conf 
+ 1324  touch wine.yml
+ 1325  cd Downloads/
+ 1326  ls
+ 1327  wine setup_rayman_3_-_hoodlum_havoc_1.0.0_\(22189\).exe 
+ 1328  wine Better_Rayman_3_Setup.exe 
+ 1329  wine Rayman3.exe 
+ 1330  wine R3_Setup_DX8.exe 
+ 1331  wine Rayman3.exe 
+ 1332  cd .wine/drive_c/GOG\ Games/Rayman\ 3/
+ 1333  ls
+ 1334  wine Rayman3.exe 3
+ 1335  wine BR3_Config.exe 
+ 1336  sudo apt-get install winetricks
+ 1337  winetricks dotnet45
+ 1338  wine BR3_Config.exe 
+ 1339  wine --version
+ 1340  wine uninstaller
+ 1341  wine BR3_Config.exe 
+ 1342  ls
+ 1343  wine R3_Setup_DX8.exe 
+ 1344  wine Rayman3.exe 
+ 1345  winetricks sound=als
+ 1346  winetricks sound=alsa
+ 1347  wine Rayman3.exe 
+ 1348  winetricks
+ 1349  pulseaudio -v
+ 1350  sudo pulseaudio -v
+ 1351  sudo apt-get install recordmydesktop
+ 1352  recordmydesktop 
+ 1353  ffmpeg
+ 1354  ffmpeg -i recording.webm out.mp4
+ 1355  ffmpeg -i recording.webm out.mp4 -vsync 0
+ 1356  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1357  gcloud app deploy
+ 1358  psql -h 104.197.57.248 -U postgres 
+ 1359  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1360  psql -h 104.197.57.248 -U postgres 
+ 1361  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1362  psql -h 104.197.57.248 -U postgres 
+ 1363  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1364  psql -h 104.197.57.248 -U postgres 
+ 1365  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1366  psql -h 104.197.57.248 -U postgres 
+ 1367  gcloud app deploy
+ 1368  python manage.py makemigrations
+ 1369  python manage.py migraet
+ 1370  python manage.py migrate
+ 1371  psql -h 104.197.57.248 -U postgres 
+ 1372  gcloud app deploy
+ 1373  psql -h 104.197.57.248 -U postgres 
+ 1374  wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+ 1375  cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+ 1376  echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+ 1377  sudo apt update && sudo apt install signal-desktop
+ 1378  cd Desktop/Dominika/skrypty_pomocniczne/wizualizacja_wynikow/restore_chat/
+ 1379  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1380  psql -h 104.197.57.248 -U postgres 
+ 1381  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1382  git status
+ 1383  git add .
+ 1384  git commit -m "google version"
+ 1385  git push
+ 1386  psql -h 104.197.57.248 -U postgres
+ 1387  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1388  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1389  python manage.py makemigrations
+ 1390  python manage.py migrate
+ 1391  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1392  psql -h 104.197.57.248 -U postgres
+ 1393  gcloud app deploy
+ 1394  psql -h 104.197.57.248 -U postgres
+ 1395  cd Desktop/
+ 1396  gedit amerinac_pie_lyrics 
+ 1397  wine R3_Setup_DX8.exe 
+ 1398  wine Rayman3.exe 
+ 1399  winetricks sound=alsa.
+ 1400  winetricks sound=pulse
+ 1401  wine Rayman3.exe 
+ 1402  wine --version
+ 1403  sudo apt-get update wine
+ 1404  sudo apt update win
+ 1405  sudo apt wine update
+ 1406  sudo apt-get upgrade wine
+ 1407  wine --version
+ 1408  cd Downloads/
+ 1409  ls
+ 1410  cd CIAbmc
+ 1411  dotnet run
+ 1412  ls
+ 1413  cd CIAbmc/
+ 1414  dotnet run
+ 1415  ls
+ 1416  sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-8.0
+ 1417  sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-8.0
+ 1418  dotnet run
+ 1419  psql -h 104.197.57.248 -U postgres 
+ 1420  cd /
+ 1421  cd .wine
+ 1422  ls
+ 1423  cd home/
+ 1424  ls
+ 1425  wine R3_Setup_DX8.exe 
+ 1426  wine Rayman3.exe 
+ 1427  wine BR3_Config.exe 
+ 1428  winetricks 
+ 1429  wine BR3_Config.exe 
+ 1430  wine32
+ 1431  wine --version
+ 1432  winetricks 
+ 1433  wine BR3_Config.exe 
+ 1434  sh winetricks
+ 1435  winetricks 
+ 1436  sudo dpkg --add-architecture i386 
+ 1437  sudo mkdir -pm755 /etc/apt/keyrings
+ 1438  sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+ 1439  sudo apt update && sudo apt install --install-recommends winehq-stable
+ 1440  wine --version
+ 1441  wine8
+ 1442  winetricks
+ 1443  wine BR3_Config.exe 
+ 1444  winetricks
+ 1445  sudo add-apt-repository multiverse
+ 1446  sudo apt update && sudo apt install ttf-mscorefonts-installer
+ 1447  sudo fc-cache -f -v
+ 1448  sudo apt install -reinstall ttf-mscorefonts-installer
+ 1449  wine BR3_Config.exe 
+ 1450  wine BR3_Config.exe  WINEDEBUG=+font 
+ 1451  wine WINEDEBUG=+font BR3_Config.exe 
+ 1452  export WINEDEBUG=+font
+ 1453  wine BR3_Config.exe 
+ 1454  fontsmooth=rgb
+ 1455  winetricks corefonts
+ 1456  wine BR3_Config.exe 
+ 1457  wine Rayman3.exe 
+ 1458  winetricks
+ 1459  winetricks sound=alsa
+ 1460  wine Rayman3.exe 
+ 1461  winetricks sound=coreaudio
+ 1462  wine Rayman3.exe 
+ 1463  winetricks sound=pulse
+ 1464  winetricks sound=puldfsadf
+ 1465  winetricks sound=pulse
+ 1466  wine Rayman3.exe 
+ 1467  winetricks
+ 1468  winetricks sound=oss
+ 1469  wine Rayman3.exe 
+ 1470  winetricks sound=pulse
+ 1471  winecfg
+ 1472  wine Rayman3.exe
+ 1473  winecfg
+ 1474  wine Rayman3.exe
+ 1475  pip install vpython
+ 1476  cd Desktop/listy/
+ 1477  python visualization.py 
+ 1478  psql -h 104.197.57.248 -U postgres 
+ 1479  python visualization.py 
+ 1480  pip install Tkinter
+ 1481  pip install --upgrade pip
+ 1482  pip install Tkinter
+ 1483  sudo apt-get install python3-tk
+ 1484  python visualization.py 
+ 1485  pip install Tkinter
+ 1486  sudo apt-get install python-tk
+ 1487  python visualization.py 
+ 1488  pip install Tkinter
+ 1489  python visualization.py 
+ 1490  python
+ 1491  python visualization.py 
+ 1492  ls
+ 1493  git init
+ 1494  git commit -m "first commit"
+ 1495  git add .
+ 1496  git commit -m "first commit"
+ 1497  git push
+ 1498  git remote add origin git@github.com:jakujakub1234/Molecule-visualization.git
+ 1499  git push
+ 1500  git branch -M master
+ 1501  git push
+ 1502  git push -u origin master
+ 1503  cd Desktop/Asia/
+ 1504  ls
+ 1505  cd xyz_visualization/
+ 1506  python visualization.py 
+ 1507  python tmp.py 
+ 1508  python visualization.py 
+ 1509  python tmp.py 
+ 1510  python visualization.py 
+ 1511  git add .
+ 1512  git commit -m "patch"
+ 1513  git push
+ 1514  git pull
+ 1515  git push -u origin master
+ 1516  git pull "README.md"
+ 1517  git fetch
+ 1518  git checkout origin
+ 1519  ls
+ 1520  git push
+ 1521  git add .
+ 1522  git commit -m "patch"
+ 1523  git push
+ 1524  git pull
+ 1525  git config pull.rebase false
+ 1526  git pull
+ 1527  git push
+ 1528  python visualization.py 
+ 1529  git add .
+ 1530  git commit -m "patch 2"
+ 1531  git push
+ 1532  cd Desktop/Asia/xyz_visualization/
+ 1533  python visualization.py 
+ 1534  /bin/python3
+ 1535  cd Desktop/Asia/xyz_visualization/
+ 1536  python tmp.py 
+ 1537  python visualization.py 
+ 1538  git status
+ 1539  git add elements_data.json 
+ 1540  git add visualization.py 
+ 1541  git commit -m "cpk_colors"
+ 1542  git push
+ 1543  git pull
+ 1544  git push
+ 1545  ffmpeg -i shell.mp4 -ss 00:00:03 -vcodec copy -acodec copy output.mp4
+ 1546  ffmpeg -i shell.mp4 -ss 00:00:06 -vcodec copy -acodec copy output.mp4
+ 1547  ffmpeg -i shell.mp4 -ss 00:00:07 -t 00:00:08 -async 1 cut.mp4
+ 1548  cd Desktop/Asia/xyz_visualization/
+ 1549  python visualization.py 
+ 1550  git add visualization.py 
+ 1551  git commit -m "performance boost"
+ 1552  git push
+ 1553  git pull
+ 1554  git push
+ 1555  python visualization.py 
+ 1556  cd ..
+ 1557  cd Graphics/ShellTexturing/
+ 1558  ls
+ 1559  . shellTexturing 
+ 1560  ./shellTexturing 
+ 1561  cd Desktop/Asia/xyz_visualization/
+ 1562  python visualization.py 
+ 1563  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1564  gcloud deploy
+ 1565  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1566  history
+ 1567  gcloud app deploy
+ 1568  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1569  cd ..
+ 1570  cd Asia/
+ 1571  cd xyz_visualization/
+ 1572  git status
+ 1573  git add elements_data.json 
+ 1574  git commit -m "ghosts"
+ 1575  git push
+ 1576  git pull
+ 1577  git push
+ 1578  psql -h 104.197.57.248 -U postgres 
+ 1579  cd Desktop/Asia/xyz_visualization/
+ 1580  pip freeze > requirements.txt
+ 1581  pip install tkinter
+ 1582  pip install tk
+ 1583  pip install vpython
+ 1584  pip install json
+ 1585  cd Desktop/Asia/xyz_visualization/
+ 1586  git add visualization.py q
+ 1587  git add visualization.py 
+ 1588  git commit -m "removed file extension from tkinter dialog"
+ 1589  git push
+ 1590  python visualization.py 
+ 1591  [A
+ 1592  python visualization.py 
+ 1593  git add visualization.py 
+ 1594  git commit -m "bug fix"
+ 1595  git push
+ 1596  python visualization.py 
+ 1597  git add visualization.py 
+ 1598  git commit -m "fix on windows"
+ 1599  git push
+ 1600  psql -h 104.197.57.248 -U postgres 
+ 1601  cd Desktop/Asia/xyz_visualization/
+ 1602  python visualization.py 
+ 1603  netstat -abno
+ 1604  sudo apt install net-tools
+ 1605  netstat -abno
+ 1606  cd Desktop/Asia/xyz_visualization/
+ 1607  python visualization.py 
+ 1608  sudo lsof -i -P -n
+ 1609  python visualization.py 
+ 1610  pip install psutil
+ 1611  python visualization.py 
+ 1612  git add visualization.py 
+ 1613  git commit -m "WSL patch"
+ 1614  git push
+ 1615  python visualization.py 
+ 1616  pip install psutilpsql -h 104.197.57.248 -U postgres 
+ 1617  psql -h 104.197.57.248 -U postgres 
+ 1618  cd Desktop/Asia/
+ 1619  python tmp.py 
+ 1620  cd Desktop/Asia/
+ 1621  python tmp.py 
+ 1622  ls
+ 1623  python tmp.py 
+ 1624  ls
+ 1625  python tmp.py 
+ 1626  rm numpy_impl.pt 
+ 1627  python tmp.py 
+ 1628  cd Desktop/
+ 1629  ls
+ 1630  mkdir netgraf_rekrutacja
+ 1631  cd netgraf_rekrutacja/
+ 1632  composer global require "laravel/installer"
+ 1633  ls
+ 1634  laravel new jakub_maras_rekrutacja
+ 1635  composer global require laravel/installer
+ 1636  laravel -V
+ 1637  gedit $HOME/.bashrc
+ 1638  laravel -V
+ 1639  source $HOME/.bashrc
+ 1640  laravel -V
+ 1641  laravel new jakub_maras_rekrutacja
+ 1642  ls
+ 1643  cd jakub_maras_rekrutacja/
+ 1644  ls
+ 1645  php artisan serve
+ 1646  cd ..
+ 1647  ls
+ 1648  cd ak_rekrutacja2/
+ 1649  ls
+ 1650  cd ..
+ 1651  cd netgraf_rekrutacja/
+ 1652  cd jakub_maras_rekrutacja/
+ 1653  php artisan serve
+ 1654  php artisan make:controller AddPetController
+ 1655  php artisan serve
+ 1656  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 1657  gcloud projects describe
+ 1658  gcloud  describe
+ 1659  gcloud  app describe
+ 1660  history
+ 1661  history > xt.txt
+ 1662  gedit xt.txt 
+ 1663  rm xt.txt 
+ 1664  cd Downloads/
+ 1665  ffmpeg "capture (3).webm" out.mp4 -vsync 0
+ 1666  ffmpeg "capture (3).webm" out2.mp4 -vsync 0
+ 1667  ffmpeg -i "capture (3).webm" out2.mp4 -vsync 0
+ 1668  cd Desktop/Dominika/server_DB/
+ 1669  psql -h 104.197.57.248 -U postgres 
+ 1670  cd Desktop/Dominika/server_DB/
+ 1671  python generate_
+ 1672  python generate_plots.py 
+ 1673  python generate_extra_csv_info.py 
+ 1674  python generate_plots.py 
+ 1675  python generate_extra_csv_info.py 
+ 1676  1
+ 1677  python generate_extra_csv_info.py 
+ 1678  python generate_plots.py 
+ 1679  cd Desktop/Graphics/
+ 1680  ls
+ 1681  cd BloodyOcean/
+ 1682  ls
+ 1683  ./bloodOcean 
+ 1684  python
+ 1685  cd Desktop/Graphics/BloodyOcean/
+ 1686  ls
+ 1687  ./bloodOcean 
+ 1688  history
+ 1689  ffmpeg -i x.mkv out3.mp4 -vsync 0
+ 1690  cd Desktop/Graphics/
+ 1691  ls
+ 1692  cd ..
+ 1693  ls
+ 1694  cd ogl-master/
+ 1695  ls
+ 1696  cd ..
+ 1697  ls
+ 1698  cd Sandbox/
+ 1699  ls
+ 1700  \q
+ 1701  \e
+ 1702  exit
+ 1703  cd Desktop/
+ 1704  python task.py 
+ 1705  python test.py
+ 1706  rm task.py 
+ 1707  python Jakub_Maras_task.py 
+ 1708  python test
+ 1709  python test.py 
+ 1710  rm test.py 
+ 1711  python test
+ 1712  python Jakub_Maras_task.py 
+ 1713  cd Desktop/expenses/project/
+ 1714  ls
+ 1715  python manage.py migrate python manage.py loaddata fixtures.json
+ 1716  ls
+ 1717  python manage.py migrate
+ 1718  python manage.py loaddata fixtures.json
+ 1719  ls
+ 1720  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 1721  gunicorn project/wsgi.py 
+ 1722  gunicorn project/wsgi:application
+ 1723  gunicorn application
+ 1724  runserver
+ 1725  python -m gunicorn project.wsgi:application -k uvicorn.workers.UvicornWorker
+ 1726  gunicorn project.wsgi:application
+ 1727  cd Desktop/expenses/project/
+ 1728  ls
+ 1729  git init
+ 1730  git add .
+ 1731  git status
+ 1732  git add
+ 1733  git commit
+ 1734  git checkout -b Jakub-Maras
+ 1735  gunicorn project.wsgi:application
+ 1736  cd Desktop/expenses/project/
+ 1737  gunicorn project.wsgi:application
+ 1738  /bin/python3
+ 1739  cd Desktop/expenses/project/
+ 1740  gunicorn project.wsgi:application
+ 1741  cd Desktop/expenses/project/
+ 1742  gunicorn project.wsgi:application
+ 1743  cd ..
+ 1744  python Jakub_Maras_task.py 
+ 1745  cd expenses/project/
+ 1746  gunicorn project.wsgi:application
+ 1747  cd ..
+ 1748  python Jakub_Maras_task.py 
+ 1749  cd expenses/project/
+ 1750  gunicorn project.wsgi:application
+ 1751  git add .
+ 1752  git commit -m "final commit"
+ 1753  git diff > jakub_maras.patch
+ 1754  git branches
+ 1755  git branch
+ 1756  git diff master Jakub-Maras > jakub-maras.patch
+ 1757  cd..
+ 1758  cd ..
+ 1759  cd project project
+ 1760  cd "project (copy)"/
+ 1761  gunicorn project.wsgi:application
+ 1762  cd ..
+ 1763  cd xd
+ 1764  gunicorn project.wsgi:application
+ 1765  git apply jakub-maras.patch
+ 1766  gunicorn project.wsgi:application
+ 1767  cd ,,
+ 1768  cd ..
+ 1769  cd project
+ 1770  ls
+ 1771  git diff master Jakub-Maras > jakub-maras.patch
+ 1772  rm jakub-maras.patch 
+ 1773  git add .
+ 1774  git commit -m "removed trailing whitespaces"
+ 1775  git diff master Jakub-Maras > jakub-maras.patch
+ 1776  cd ..
+ 1777  cd xd/
+ 1778  gunicorn project.wsgi:application
+ 1779  git apply jakub-maras.patch
+ 1780  cd ..
+ 1781  cd xd
+ 1782  cd ..
+ 1783  cd project
+ 1784  rm jakub-maras.patch 
+ 1785  git add .
+ 1786  git commit -m "removed trailing whitespaces_2"
+ 1787  git diff master Jakub-Maras > jakub-maras.patch
+ 1788  cd ..
+ 1789  cd xd/
+ 1790  gunicorn project.wsgi:application
+ 1791  git apply jakub-maras.patch
+ 1792  gunicorn project.wsgi:application
+ 1793  python
+ 1794  Rscript main.R 
+ 1795  history
+ 1796  history | grep R
+ 1797  history | grep Rscript
+ 1798  Rscript -e "install.packages'coda')"
+ 1799  Rscript main.R 
+ 1800  Rscript -e "install.packages('readxl')"
+ 1801  Rscript main.R 
+ 1802  Rscript -e "install.packages('tidyverse')"
+ 1803  Rscript main.R 
+ 1804  Rscript -e "install.packages('ragg')"
+ 1805  Rscript -e "install.packages('textshaping')"
+ 1806  Rscript -e "install.packages('ragg')"
+ 1807  Rscript -e "install.packages('ragg', dependencies=TRUE)"
+ 1808  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1809  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1810  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1811  sudo apt install libharfbuzz-dev libfribidi-dev libtiff5-dev
+ 1812  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1813  Rscript -e "install.packages('ragg')"
+ 1814  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1815  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1816  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1817  pkg-config harfbuzz fribidi --libs
+ 1818  pkg-config harfbuzz fribidi --cflags
+ 1819  R.home()
+ 1820  Rscript -e "R.home()"
+ 1821  pkg-config harfbuzz-dev fribidi-dev --libs
+ 1822  pkg-config harfbuzz-dev fribidi --libs
+ 1823  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1824  sudo apt install libharfbuzz-dev libfribidi
+ 1825  sudo apt install libharfbuzz-dev libfribidi-devsudo apt install libharfbuzz-dev libfribidi-dev
+ 1826  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1827  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1828  pkg-config
+ 1829  echo $PKG_CONFIG_PATH
+ 1830  export PKG_CONFIG_PATH=/usr/lib/pkgconfig
+ 1831  pkg-config harfbuzz-dev fribidi --libs
+ 1832  pkg-config harfbuzz-dev fribidi --libspkg-config --variable pc_path pkg-config
+ 1833  pkg-config --variable pc_path pkg-config
+ 1834  export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+ 1835  pkg-config harfbuzz-dev fribidi --libs
+ 1836  dpkg -l libharfbuzz-dev
+ 1837  dpkg -l libharfbuzz
+ 1838  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1839  dpkg -l libfribidi-dev
+ 1840  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1841  sudo apt-get install libharfbuzz-dev libfribidi-dev libfontconfig1-dev
+ 1842  libharfbuzz-dev
+ 1843  dpkg libharfbuzz-dev
+ 1844  dpkg =l libharfbuzz-dev
+ 1845  dpkg -L libharfbuzz-dev
+ 1846  export PKG_CONFIG_PATH=/usr/include
+ 1847  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1848  export PKG_CONFIG_PATH=/usr/lib
+ 1849  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1850  pkg-config --variable pc_path pkg-config
+ 1851  pkg-config harfbuzz-dev fribidi --libs
+ 1852  export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig/
+ 1853  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1854  sudo apt install fribidi
+ 1855  sudo apt install libfontconfig1-dev
+ 1856  sudo apt install Rscript
+ 1857  sudo apt install R
+ 1858  sudo apt install gdebi-core
+ 1859  wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-x.x.x-amd64.deb
+ 1860  sudo gdebi rstudio-x.x.x-amd64.deb
+ 1861  R
+ 1862  apt-get update
+ 1863  sudo apt-get update
+ 1864  sudo apt-get install libharfbuzz-dev
+ 1865  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1866  Rscript main.R 
+ 1867  Rscript -e "install.packages('lavaan', dependencies=TRUE)"
+ 1868  Rscript main.R 
+ 1869  Rscript -e "install.packages('semPlot', dependencies=TRUE)"
+ 1870  Rscript -e "install.packages('cocor', dependencies=TRUE)"
+ 1871  cd Desktop/Dominika/R/
+ 1872  Rscript main.R 
+ 1873  Rscript -e "install.packages('semPlot', dependencies=TRUE)"
+ 1874  Rscript main.R 
+ 1875  Rscript -e "install.packages('apaTables', dependencies=TRUE)"
+ 1876  Rscript -e "install.packages('pbkrtest', dependencies=TRUE)"
+ 1877  Rscript -v
+ 1878  R -v
+ 1879  sudo
+ 1880  sudo ls
+ 1881  wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+ 1882  sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+ 1883  sudo apt update
+ 1884  sudo apt install --no-install-recommends r-base
+ 1885  Rscript -e "install.packages('pbkrtest', dependencies=TRUE)"
+ 1886  Rscript -e "install.packages('quantreg', dependencies=TRUE)"
+ 1887  Rscript -e "install.packages('tidyverse', dependencies=TRUE)"
+ 1888  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1889  Rscript -e "install.packages('car\', dependencies=TRUE)"
+ 1890  Rscript -e "install.packages('car', dependencies=TRUE)"
+ 1891  cd Desktop/Dominika/R/
+ 1892  Rscript main.R 
+ 1893  Rscript -e "install.packages('apaTables', dependencies=TRUE)"
+ 1894  Rscript main.R 
+ 1895  Rscript -e "install.packages('semPlot', dependencies=TRUE)"
+ 1896  Rscript main.R 
+ 1897  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1898  sudo apt install libharfbuzz-dev libfribidi-dev
+ 1899  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1900  sudo apt install -s -y r-cran-tidyverse
+ 1901  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1902  sudo apt install aptitude
+ 1903  sudo aptitude install -s r-cran-tidyverse
+ 1904  Rscript -e "install.packages('textshaping', dependencies=TRUE)"
+ 1905  On my system (WSL2 with Ubuntu 20), installing the two mentioned packages was not enough, I also had to install libfontconfig1-dev.
+ 1906  So in the end, this solved my problem:
+ 1907  sudo apt-get install libharfbuzz-dev libfribidi-dev libfontconfig1-dev
+ 1908  sudo apt install libharfbuzz-dev \ 
+ 1909  libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev \
+ 1910  Rscript main.R 
+ 1911  Rscript main.R  > xd.txt
+ 1912  Rscript main.R
+ 1913  cd Desktop/Dominika/R
+ 1914  Rscript  main.R 
+ 1915  Rscript  main.R >xd.txt
+ 1916  Rscript  main.R 
+ 1917  cd Desktop/Dominika/R/
+ 1918  Rscript main.R 
+ 1919  [A
+ 1920  Rscript main.R 
+ 1921  Rscript main.R > xd.txt
+ 1922  python parse_xd.py 
+ 1923  Rscript main.R > xd.txt
+ 1924  cd Desktop/Dominika/R/
+ 1925  python parse_xd.py 
+ 1926  pip install python-docx
+ 1927  python parse_xd.py 
+ 1928  Rscript main.R > xd.txt
+ 1929  python parse_xd.py 
+ 1930  Rscript main.R > xd.txt
+ 1931  python parse_xd.py 
+ 1932  python
+ 1933  python parse_xd.py 
+ 1934  cd Desktop/Asia/
+ 1935  ls
+ 1936  cd xyz_visualization/
+ 1937  ls
+ 1938  python visualization.py 
+ 1939  gedit visualization.py 
+ 1940  cd Desktop/Dominika/R/
+ 1941  python parse_xd.py 
+ 1942  python parse_xd.py  > parsed.txt
+ 1943  python parse_xd.py  
+ 1944  gedit Michał_Mróz.pdf 
+ 1945  cd Desktop/Dominika/R/
+ 1946  Rscript main.R 
+ 1947  Rscript main.R > y.txt
+ 1948  Rscript main.R 
+ 1949  Rscript MAIN_corr1.R > xd2.txt
+ 1950  Rscript -e "install.packages('flextable', dependencies=TRUE)"
+ 1951  Rscript MAIN_corr1.R > xd2.txt
+ 1952  Rscript MAIN_corr1.R 
+ 1953  Rscript MAIN_corr1.R > xd2.txt
+ 1954  python parse_xd2.py 
+ 1955  cd Desktop/Dominika/R/
+ 1956  Rscript main.R 
+ 1957  python
+ 1958  cd Desktop/Dominika/server_DB/
+ 1959  python xdd.py 
+ 1960  psql -h 104.197.57.248 -U postgres 
+ 1961  cd Desktop/Dominika/server_DB/
+ 1962  python lol.py
+ 1963  pip numpy
+ 1964  pip install numpy
+ 1965  cd Desktop/Dominika/server_DB/
+ 1966  ls
+ 1967  python lol.py 
+ 1968  cd ..
+ 1969  cd Wyklady/
+ 1970  ls
+ 1971  mkdir Python
+ 1972  cd Python/
+ 1973  pip install jupyterlab
+ 1974  pip install notebook
+ 1975  jupyter notebook
+ 1976  ls
+ 1977  rm wyklad.py 
+ 1978  jupyter notebook
+ 1979  touch pandas_task.csv
+ 1980  cd Desktop/Wyklady/Python/
+ 1981  jupyter notebook
+ 1982  jupyter lab
+ 1983  jupyter notebook
+ 1984  cd Desktop/Wyklady/Python/
+ 1985  jupyter notebook
+ 1986  cd Desktop/Wyklady/Python/
+ 1987  jupyter noteboook
+ 1988  jupyter notebook
+ 1989  sudo apt-get install texlive texlive-latex-extra pandoc
+ 1990  jupyter notebook
+ 1991  jupyter nbconvert Lista_zadan.ipynb --to pdf
+ 1992  $ sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+ 1993  jupyter nbconvert Lista_zadan.ipynb --to pdf
+ 1994  python
+ 1995  exitr
+ 1996  :q
+ 1997  exit
+ 1998  \q
+ 1999  :quit
+ 2000  quit
+ 2001  cd Desktop/Dominika/djangoforbeginners-main/ch3-pages/
+ 2002  python -m gunicorn django_project.asgi:application -k uvicorn.workers.UvicornWorker
+ 2003  history
+ 2004  gcloud deploy
+ 2005  history > hist.txt 

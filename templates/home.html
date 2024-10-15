@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<h1 style="text-align: center; margin-top: 100px;">Welcome to the Chatroom</h1>
+<h2 style="text-align: center; font-size: 1.3em;">
+    You cannot leave the chat once you join. The chat will automatically close after about 8 minutes.
+    <br><br>
+</h2>
+<h2 style="text-align: center; font-size: 1.4em; margin-left: 10%; margin-right: 10%;">
+    <span style="color: #ff0000">After the chat ends, you'll receive a unique code. Please enter this code on the Qualtrics survey page you were previously using. Do not close the Qualtrics tab, as entering the code will allow you to continue the survey.</span>
+    <br>
+    <br>
+</h2>
+<h2 style="text-align: center;">
+    Note: Exiting the chatroom before the end will automatically close the session.
+    <br>
+</h2>
+
+<p style="text-align: center; font-size: small;">
+    The following data will be collected for research purposes:
+    <br>
+    Your chosen nickname, time of entry, messages you send and your interactions with the chat interface. This data will only be used for the purpose of this study.
+    <br>
+    By moving to the next page (by clicking "Submit" or pressing Enter), you consent to the collection and storage of this data.
+</p>
+
+<h2 style="text-align: center; margin-top: 100px;">To join the chatroom lobby, please enter:<br></h2>
+<p style="text-align: center; font-size: small;">
+    Your nickname (does not have to be your real name, feel free to use any phrase)
+    The unique key you received in Qualtrics
+</p>
+
+<form action="/" method="post" style="text-align: center; margin-top: 50px;">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" class="btn-submit" id="btn-submit">
+</form>
+
+<script src="{% static 'js/button_animation.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/home_style.css' %}">
+
+<script>
+document.getElementById("id_nick").focus();
+document.getElementById("id_nick").select();
+
+// Reload on browser "previous" button
+window.addEventListener( "pageshow", function ( event ) {
+    var historyTraversal = event.persisted || 
+                           ( typeof window.performance != "undefined" && 
+                                window.performance.navigation.type === 2 );
+    if ( historyTraversal ) {
+      window.location.reload();
+    }
+});
+</script>
+
+{% endblock content %}

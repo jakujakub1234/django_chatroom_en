@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block content %}
+<article id="data-from-django" data-nick="{{ nick }}" data-token="{{ csrf_token }}" data-end-url="{% url 'return_qualtrics_code' %}" data-start-timestamp = "{{ start_timestamp}}" data-is-positive = "{{ is_positive_manipulation }}" tabindex="-1">
+</article>
+
+<h1 id="header-text" style="text-align: center; margin-top: 100px;">Chatroom</h1>
+
+<div id="chatroom">
+</div>
+
+<dialog id="dialog-box">
+  <b>Attention</b>
+  <p>The chat will automatically close in 30 seconds.</p>
+  <br>
+  <div class="dialog-buttons"><button id="dialog-button" onclick="closeDialog()">OK</button></div>
+</dialog>
+
+<div class="col-3" style="margin: auto;">
+  <div class="snippet" data-title="dot-pulse" style="margin: auto;">
+    <div id="stage" class="stage" style="margin: auto; margin-top: 2%;  display: none;">
+      <span id="user-writing" class="user_writing" style="margin-left: 2%;">Piotrek is writing</span>
+      <span class="dot-pulse" style="margin-left: 3%; display: inline-block;"></span>
+    </div>
+  </div>
+</div>
+
+<div id="respond-input-box" class="container container-respond" style="display: none">
+  <button class="close-respond" id="close-respond" onclick="closeRespond()"></button>
+  <p id="respond-input-box-nick">Reply to user</p>
+  <p id="respond-input-box-message">respond_message</p>
+</div> 
+
+<div class="row">
+  <form class="form-group" id="chat-box" onsubmit="return false">
+    {% csrf_token %}
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <textarea type="text" placeholder="Napisz wiadomość..." name="message" id="msg_field" maxlength="250" tabindex="0"> </textarea>
+        <button name="send" class="btn btn-success" id="btn-submit" tabindex="1">Send</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- TODO ukryć to -->
+<div class="bottom-bar">
+
+<label for="change-font-size" style="margin-top: auto; margin-bottom: auto;">Change font size</label>
+  <select id="change-font-size">
+      <option value="0">Small</option>
+      <option value="1">Medium</option>
+      <option value="2">Large</option>
+  </select>
+<button name="send" class="btn btn-success" id="btn-prototype-2" tabindex="1">Change color</button>
+
+<span style="float: right; margin-right: 2%; padding-top: inherit;" id='seconds-counter'>Time until the chat closes: 4 minutes</span>
+
+</div>
+
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/button_animation.js' %}"></script>
+<script src="{% static 'js/positive_bots_messages.js' %}"></script>
+<script src="{% static 'js/negative_bots_messages.js' %}"></script>
+<script src="{% static 'js/chatroom_script.js' %}"></script>
+
+<link rel="stylesheet" href="{% static 'styles/chatroom_style.css' %}">
+
+{% endblock content %}

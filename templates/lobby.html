@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<article id="data-from-django" data-nick="{{ nick }}" data-token="{{ csrf_token }}" data-chatroom-url = "{% url 'chatroom' %}" data-start-timestamp = "{{ start_timestamp }}"></article>
+
+<h1 style="text-align: center; margin-top: 100px;">Welcome {{ nick }}, please wait while the other participants are assigned to the chatroom.</h1>
+<h2 style="text-align: center;">Important: Do not leave the chat; it will automatically close approximately 8 minutes after you join.</h2>
+
+<h2 id="users-counter" style="text-align: center;">Number of people in the lobby: 2</h1>
+
+<div style="text-align: center;" id='seconds-counter'>Waiting time: - seconds</div>
+
+<table id="bots-table" class="bots-table">
+    <tbody>
+        <tr>
+            <td id="bot-0"></td>
+            <td id="bot-1"></td>
+            <td id="bot-2"></td>
+            <td id="bot-3"></td>
+        </tr>
+    </tbody>
+</table>
+<table id="bots-table" class="bots-table" style="margin-top: -3px;">
+    <tbody>
+        <tr>
+            <td id="bot-4"></td>
+            <td id="bot-5"></td>
+            <td id="bot-6"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+<a style="text-align: center;" href="{% url 'chatroom' %}">Pomiń oczekiwania (tylko do testów)</a>
+-->
+
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<script src="{% static 'js/lobby_script.js' %}"></script>
+
+<link rel="stylesheet" href="{% static 'styles/lobby_style.css' %}">
+
+{% endblock content %}
